@@ -1,5 +1,6 @@
-#include <iostream>
-#include <main.h>
+
+#include "main.h"
+
 
 string School::ReturnClassName() {
     return this->cName;
