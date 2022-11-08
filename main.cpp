@@ -7,3 +7,5 @@ int main() {
     School SCH("8B");
     cout << SCH.cName<< "\n";
 }
+
+

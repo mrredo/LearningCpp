@@ -1,12 +1,7 @@
 #pragma once
 #include <iostream>
 using namespace std;
-// class School {
-    
-//     public:
-//         string cName;
-//         string ReturnClassName();
-// };
+
 class School
 {
 

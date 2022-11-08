@@ -1,2 +1,0 @@
-C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-e2tho8/CMakeFiles/cmTC_995f0.dir
-C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-e2tho8/CMakeFiles/ALL_BUILD.dir

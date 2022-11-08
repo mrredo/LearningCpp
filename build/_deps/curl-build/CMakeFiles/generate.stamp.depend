@@ -1,0 +1,39 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCCompilerFlag.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCSourceRuns.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFiles.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckStructHasMember.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCygwin.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindMsys.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPerl.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindThreads.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/CurlSymbolHiding.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/CurlTests.c
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/FindLibSSH2.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/Macros.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/OtherTests.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/Platforms/WindowsCache.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/Utilities.cmake
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/cmake_uninstall.cmake.in
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMake/curl-config.cmake.in
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/CMakeLists.txt
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/curl-config.in
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-src/libcurl.pc.in
