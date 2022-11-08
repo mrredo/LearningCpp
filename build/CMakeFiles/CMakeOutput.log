@@ -1,0 +1,828 @@
+The system is: Windows - 10.0.19044 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 08.11.2022 07:08:43.
+Project "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "C:\vcpkg\installed\x64-windows\"
+  Using normalized configuration "Release"
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\CL.exe /c /I"C:\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\vcpkg\installed\x64-windows\lib" /LIBPATH:"C:\vcpkg\installed\x64-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\vcpkg\installed\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdC\CompilerIdC.exe
+AppLocalFromInstalled:
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdC\CompilerIdC.exe" "C:\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdC\CompilerIdC.exe" "C:\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"" exited with code 9009.
+  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdC\CompilerIdC.exe" "C:\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdC.tlog\CompilerIdC.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.76
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/3.25.0-rc3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 08.11.2022 07:08:45.
+Project "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+VcpkgTripletSelection:
+  Using triplet "x64-windows" from "C:\vcpkg\installed\x64-windows\"
+  Using normalized configuration "Release"
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\CL.exe /c /I"C:\vcpkg\installed\x64-windows\include" /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\vcpkg\installed\x64-windows\lib" /LIBPATH:"C:\vcpkg\installed\x64-windows\lib\manual-link" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "C:\vcpkg\installed\x64-windows\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdCXX\CompilerIdCXX.exe
+AppLocalFromInstalled:
+  pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdCXX\CompilerIdCXX.exe" "C:\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.
+  The command "pwsh.exe -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdCXX\CompilerIdCXX.exe" "C:\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"" exited with code 9009.
+  "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -ExecutionPolicy Bypass -noprofile -File "C:\vcpkg\scripts\buildsystems\msbuild\applocal.ps1" "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdCXX\CompilerIdCXX.exe" "C:\vcpkg\installed\x64-windows\bin" "Debug\CompilerIdCXX.tlog\CompilerIdCXX.write.1u.tlog" "Debug\vcpkg.applocal.log"
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\3.25.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.31
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/3.25.0-rc3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-j2hiww
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_545c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CMakeCCompilerABI.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_545c4.dir\Debug\\" /Fd"cmTC_545c4.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
+  cmTC_545c4.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j2hiww\Debug\cmTC_545c4.exe
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-gm0xph
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7f5e3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CMakeCXXCompilerABI.cpp
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7f5e3.dir\Debug\\" /Fd"cmTC_7f5e3.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_7f5e3.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-gm0xph\Debug\cmTC_7f5e3.exe
+
+
+
+Performing C++ SOURCE FILE Test THREAD_SANITIZER_AVAILABLE succeeded with the following compile output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-oes4a2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_38364.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D THREAD_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_38364.dir\Debug\\" /Fd"cmTC_38364.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -fsanitize=thread "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-oes4a2\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-fsanitize=thread' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-oes4a2\cmTC_38364.vcxproj]
+  cmTC_38364.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-oes4a2\Debug\cmTC_38364.exe
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+int main() { return 0; }
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-oe3q6k
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2e866.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2e866.dir\Debug\\" /Fd"cmTC_2e866.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-oe3q6k\CheckIncludeFile.c"
+  cmTC_2e866.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-oe3q6k\Debug\cmTC_2e866.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-z1zcgm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7414a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7414a.dir\Debug\\" /Fd"cmTC_7414a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-z1zcgm\CheckIncludeFile.c"
+  cmTC_7414a.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-z1zcgm\Debug\cmTC_7414a.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-t2weuo
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71b42.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71b42.dir\Debug\\" /Fd"cmTC_71b42.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-t2weuo\CheckIncludeFile.c"
+  cmTC_71b42.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-t2weuo\Debug\cmTC_71b42.exe
+
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-kckgzf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a32d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=strerror /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a32d3.dir\Debug\\" /Fd"cmTC_a32d3.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-kckgzf\CheckFunctionExists.c"
+  cmTC_a32d3.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-kckgzf\Debug\cmTC_a32d3.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_PTRDIFF_T succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0txwp8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c784b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_PTRDIFF_T /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c784b.dir\Debug\\" /Fd"cmTC_c784b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0txwp8\src.c"
+  cmTC_c784b.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0txwp8\Debug\cmTC_c784b.exe
+
+
+Source file was:
+#include <stddef.h>
+     int main() {
+         ptrdiff_t *a;
+         (void)a;
+         return 0;
+    }
+
+Performing C SOURCE FILE Test HAVE_SSE2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xgtzez
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e253a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE2_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e253a.dir\Debug\\" /Fd"cmTC_e253a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xgtzez\src.c"
+  cmTC_e253a.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xgtzez\Debug\cmTC_e253a.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i zero = _mm_setzero_si128();
+            (void)zero;
+            return 0;
+        }
+
+Performing C SOURCE FILE Test HAVE_SSSE3_INTRIN succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-o33wk8
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6a6a2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSSE3_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a6a2.dir\Debug\\" /Fd"cmTC_6a6a2.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-o33wk8\src.c"
+  cmTC_6a6a2.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-o33wk8\Debug\cmTC_6a6a2.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m128i u, v, w;
+            u = _mm_set1_epi32(1);
+            v = _mm_set1_epi32(2);
+            w = _mm_hadd_epi32(u, v);
+            (void)w;
+            return 0;
+        }
+
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INTRIN succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-4c45c0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_42f9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE42CRC_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42f9f.dir\Debug\\" /Fd"cmTC_42f9f.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4c45c0\src.c"
+  cmTC_42f9f.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4c45c0\Debug\cmTC_42f9f.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned crc = 0;
+            char c = 'c';
+        #if defined(_MSC_VER)
+            crc = _mm_crc32_u32(crc, c);
+        #else
+            crc = __builtin_ia32_crc32qi(crc, c);
+        #endif
+            (void)crc;
+            return 0;
+        }
+
+Performing C SOURCE FILE Test HAVE_SSE42CMPSTR_INTRIN succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-5ayz3h
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e73d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE42CMPSTR_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e73d7.dir\Debug\\" /Fd"cmTC_e73d7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-5ayz3h\src.c"
+  cmTC_e73d7.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-5ayz3h\Debug\cmTC_e73d7.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            unsigned char a[64] = { 0 };
+            unsigned char b[64] = { 0 };
+            __m128i xmm_src0, xmm_src1;
+            xmm_src0 = _mm_loadu_si128((__m128i *)(char *)a);
+            xmm_src1 = _mm_loadu_si128((__m128i *)(char *)b);
+            return _mm_cmpestri(xmm_src0, 16, xmm_src1, 16, 0);
+        }
+
+Performing C SOURCE FILE Test HAVE_PCLMULQDQ_INTRIN succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-fuqpul
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_14715.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_PCLMULQDQ_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_14715.dir\Debug\\" /Fd"cmTC_14715.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-fuqpul\src.c"
+  cmTC_14715.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-fuqpul\Debug\cmTC_14715.exe
+
+
+Source file was:
+#include <immintrin.h>
+            int main(void) {
+                __m128i a = _mm_setzero_si128();
+                __m128i b = _mm_setzero_si128();
+                __m128i c = _mm_clmulepi64_si128(a, b, 0x10);
+                (void)c;
+                return 0;
+            }
+
+Performing C SOURCE FILE Test HAVE_AVX2_INTRIN succeeded with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0ufieh
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_42698.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_AVX2_INTRIN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42698.dir\Debug\\" /Fd"cmTC_42698.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0ufieh\src.c"
+  cmTC_42698.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0ufieh\Debug\cmTC_42698.exe
+
+
+Source file was:
+#include <immintrin.h>
+        int main(void) {
+            __m256i x = _mm256_set1_epi16(2);
+            const __m256i y = _mm256_set1_epi16(1);
+            x = _mm256_subs_epu16(x, y);
+            (void)x;
+            return 0;
+        }
+
+Determining if the function getch exists in the ws2_32; passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-knhutu
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ce462.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ce462.dir\Debug\\" /Fd"cmTC_ce462.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-knhutu\CheckFunctionExists.c"
+  cmTC_ce462.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-knhutu\Debug\cmTC_ce462.exe
+
+
+
+Determining if the function getch exists in the winmm;ws2_32 passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xhc29w
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_2d4a6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=getch /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2d4a6.dir\Debug\\" /Fd"cmTC_2d4a6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xhc29w\CheckFunctionExists.c"
+  cmTC_2d4a6.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xhc29w\Debug\cmTC_2d4a6.exe
+
+
+
+Determining if files ;windows.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-u0f94r
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ecd51.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_WINDOWS_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ecd51.dir\Debug\\" /Fd"cmTC_ecd51.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-u0f94r\HAVE_WINDOWS_H.c"
+  cmTC_ecd51.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-u0f94r\Debug\cmTC_ecd51.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-a5zxar
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f2701.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_WS2TCPIP_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2701.dir\Debug\\" /Fd"cmTC_f2701.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-a5zxar\HAVE_WS2TCPIP_H.c"
+  cmTC_f2701.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-a5zxar\Debug\cmTC_f2701.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-1b03b0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f729e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_WINSOCK2_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f729e.dir\Debug\\" /Fd"cmTC_f729e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-1b03b0\HAVE_WINSOCK2_H.c"
+  cmTC_f729e.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-1b03b0\Debug\cmTC_f729e.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-q0qz5s
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_72856.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_WINCRYPT_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72856.dir\Debug\\" /Fd"cmTC_72856.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q0qz5s\HAVE_WINCRYPT_H.c"
+  cmTC_72856.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q0qz5s\Debug\cmTC_72856.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-wvg7v0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c3cd3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_STDIO_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c3cd3.dir\Debug\\" /Fd"cmTC_c3cd3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-wvg7v0\HAVE_STDIO_H.c"
+  cmTC_c3cd3.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-wvg7v0\Debug\cmTC_c3cd3.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-ng8z3j
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ea322.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_ASSERT_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea322.dir\Debug\\" /Fd"cmTC_ea322.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ng8z3j\HAVE_ASSERT_H.c"
+  cmTC_ea322.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ng8z3j\Debug\cmTC_ea322.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-n2758n
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4f114.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_ERRNO_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4f114.dir\Debug\\" /Fd"cmTC_4f114.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-n2758n\HAVE_ERRNO_H.c"
+  cmTC_4f114.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-n2758n\Debug\cmTC_4f114.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-1coray
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_15bcb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_LOCALE_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_15bcb.dir\Debug\\" /Fd"cmTC_15bcb.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-1coray\HAVE_LOCALE_H.c"
+  cmTC_15bcb.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-1coray\Debug\cmTC_15bcb.exe
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-96ehyj
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ca70f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_STDBOOL_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ca70f.dir\Debug\\" /Fd"cmTC_ca70f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-96ehyj\HAVE_STDBOOL_H.c"
+  cmTC_ca70f.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-96ehyj\Debug\cmTC_ca70f.exe
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-41mmkr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5c9ea.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_SIZE_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c9ea.dir\Debug\\" /Fd"cmTC_5c9ea.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-41mmkr\SIZEOF_SIZE_T.c"
+  cmTC_5c9ea.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-41mmkr\Debug\cmTC_5c9ea.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-27peq6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_12965.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_LONG_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_12965.dir\Debug\\" /Fd"cmTC_12965.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-27peq6\SIZEOF_LONG_LONG.c"
+  cmTC_12965.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-27peq6\Debug\cmTC_12965.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-1zbtv2
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_072af.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_LONG.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_072af.dir\Debug\\" /Fd"cmTC_072af.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-1zbtv2\SIZEOF_LONG.c"
+  cmTC_072af.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-1zbtv2\Debug\cmTC_072af.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-3f63uu
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_62efe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_SHORT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62efe.dir\Debug\\" /Fd"cmTC_62efe.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-3f63uu\SIZEOF_SHORT.c"
+  cmTC_62efe.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-3f63uu\Debug\cmTC_62efe.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-7g83f0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_cd6c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_INT.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd6c3.dir\Debug\\" /Fd"cmTC_cd6c3.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7g83f0\SIZEOF_INT.c"
+  cmTC_cd6c3.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7g83f0\Debug\cmTC_cd6c3.exe
+
+
+
+Determining size of __int64 passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-8wvg8h
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3fdce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF___INT64.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3fdce.dir\Debug\\" /Fd"cmTC_3fdce.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8wvg8h\SIZEOF___INT64.c"
+  cmTC_3fdce.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8wvg8h\Debug\cmTC_3fdce.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-455v4z
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_df0d6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_TIME_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df0d6.dir\Debug\\" /Fd"cmTC_df0d6.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-455v4z\SIZEOF_TIME_T.c"
+  cmTC_df0d6.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-455v4z\Debug\cmTC_df0d6.exe
+
+
+
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xod690
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_08706.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_08706.dir\Debug\\" /Fd"cmTC_08706.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xod690\CheckSymbolExists.c"
+  cmTC_08706.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xod690\Debug\cmTC_08706.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-249t96
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_09b75.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_09b75.dir\Debug\\" /Fd"cmTC_09b75.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-249t96\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_09b75.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-249t96\Debug\cmTC_09b75.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _strtoi64 exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xor2xm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e181a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e181a.dir\Debug\\" /Fd"cmTC_e181a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xor2xm\CheckSymbolExists.c"
+  cmTC_e181a.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xor2xm\Debug\cmTC_e181a.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _strtoi64
+  return ((int*)(&_strtoi64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the freeaddrinfo exist passed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xm2thn
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3e589.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3e589.dir\Debug\\" /Fd"cmTC_3e589.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xm2thn\CheckSymbolExists.c"
+  cmTC_3e589.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xm2thn\Debug\cmTC_3e589.exe
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef freeaddrinfo
+  return ((int*)(&freeaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

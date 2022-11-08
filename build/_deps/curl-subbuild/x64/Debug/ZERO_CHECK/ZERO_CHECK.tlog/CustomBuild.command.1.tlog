@@ -1,0 +1,10 @@
+^C:\USERS\LIETOTĀJS\DOCUMENTS\GITHUB\LEARNINGCPP\BUILD\_DEPS\CURL-SUBBUILD\CMAKEFILES\BEFADFBD0F680C632F26234F54562B34\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-subbuild -BC:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/curl-populate.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

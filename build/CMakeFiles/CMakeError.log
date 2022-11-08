@@ -1,0 +1,1703 @@
+Performing C++ SOURCE FILE Test ADDRESS_SANITIZER_AVAILABLE failed with the following compile output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-4kcjgl
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3c77e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /fsanitize=address /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ADDRESS_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3c77e.dir\Debug\\" /Fd"cmTC_3c77e.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -fsanitize=address "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4kcjgl\src.cxx"
+  cmTC_3c77e.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4kcjgl\Debug\cmTC_3c77e.exe
+
+
+...and run output:
+Exit code 0xc0000135
+
+Return value: FAILED_TO_RUN
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test LEAK_SANITIZER_AVAILABLE failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-snyqps
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_374d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.cxx
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D LEAK_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_374d8.dir\Debug\\" /Fd"cmTC_374d8.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -fsanitize=leak "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-snyqps\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-fsanitize=leak' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-snyqps\cmTC_374d8.vcxproj]
+  cmTC_374d8.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-snyqps\Debug\cmTC_374d8.exe
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-ry2a0d
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a5821.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  src.cxx
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D UNDEFINED_BEHAVIOUR_SANITIZER_AVAILABLE /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a5821.dir\Debug\\" /Fd"cmTC_a5821.dir\Debug\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -fsanitize=undefined "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ry2a0d\src.cxx"
+cl : command line warning D9002: ignoring unknown option '-fsanitize=undefined' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ry2a0d\cmTC_a5821.vcxproj]
+  cmTC_a5821.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ry2a0d\Debug\cmTC_a5821.exe
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the include file sys/sdt.h exists failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0lkgie
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ab0b7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckIncludeFile.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0lkgie\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'sys/sdt.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0lkgie\cmTC_ab0b7.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ab0b7.dir\Debug\\" /Fd"cmTC_ab0b7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0lkgie\CheckIncludeFile.c"
+
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-4znalq
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a7c22.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckIncludeFile.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a7c22.dir\Debug\\" /Fd"cmTC_a7c22.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4znalq\CheckIncludeFile.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4znalq\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4znalq\cmTC_a7c22.vcxproj]
+
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-j5lyer
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_59000.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  OFF64_T.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_59000.dir\Debug\\" /Fd"cmTC_59000.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\OFF64_T.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\OFF64_T.c(29,12): error C2065: 'off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\cmTC_59000.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\OFF64_T.c(30,12): error C2065: 'off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\cmTC_59000.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\OFF64_T.c(31,12): error C2065: 'off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\cmTC_59000.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\OFF64_T.c(32,12): error C2065: 'off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\cmTC_59000.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\OFF64_T.c(33,12): error C2065: 'off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j5lyer\cmTC_59000.vcxproj]
+
+
+OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of _off64_t failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-7ioq6z
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_34312.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  _OFF64_T.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\_OFF64_T.c(29,12): error C2065: '_off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\cmTC_34312.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\_OFF64_T.c(30,12): error C2065: '_off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\cmTC_34312.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\_OFF64_T.c(31,12): error C2065: '_off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\cmTC_34312.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\_OFF64_T.c(32,12): error C2065: '_off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\cmTC_34312.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\_OFF64_T.c(33,12): error C2065: '_off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\cmTC_34312.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_34312.dir\Debug\\" /Fd"cmTC_34312.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7ioq6z\_OFF64_T.c"
+
+
+_OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(_off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of __off64_t failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-eddkwy
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6730a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  __OFF64_T.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\__OFF64_T.c(29,12): error C2065: '__off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\cmTC_6730a.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\__OFF64_T.c(30,12): error C2065: '__off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\cmTC_6730a.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\__OFF64_T.c(31,12): error C2065: '__off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\cmTC_6730a.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\__OFF64_T.c(32,12): error C2065: '__off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\cmTC_6730a.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\__OFF64_T.c(33,12): error C2065: '__off64_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\cmTC_6730a.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D __USE_LARGEFILE64 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6730a.dir\Debug\\" /Fd"cmTC_6730a.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eddkwy\__OFF64_T.c"
+
+
+__OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__off64_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-so8mw3
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bbf5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bbf5c.dir\Debug\\" /Fd"cmTC_bbf5c.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-so8mw3\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol fseeko referenced in function main [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-so8mw3\cmTC_bbf5c.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-so8mw3\Debug\cmTC_bbf5c.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-so8mw3\cmTC_bbf5c.vcxproj]
+
+
+
+Determining if the function posix_memalign exists failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xxkxze
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_90de7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=posix_memalign /D _POSIX_C_SOURCE=200112L /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_90de7.dir\Debug\\" /Fd"cmTC_90de7.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xxkxze\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol posix_memalign referenced in function main [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xxkxze\cmTC_90de7.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xxkxze\Debug\cmTC_90de7.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xxkxze\cmTC_90de7.vcxproj]
+
+
+
+Performing C SOURCE FILE Test HAVE_NO_INTERPOSITION failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-xo5m3q
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3cc1b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_NO_INTERPOSITION /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3cc1b.dir\Debug\\" /Fd"cmTC_3cc1b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  -fno-semantic-interposition "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xo5m3q\src.c"
+cl : command line warning D9002: ignoring unknown option '-fno-semantic-interposition' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xo5m3q\cmTC_3cc1b.vcxproj]
+  cmTC_3cc1b.vcxproj -> C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-xo5m3q\Debug\cmTC_3cc1b.exe
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_HIDDEN failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-23r3gi
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e1b76.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c(2,9): error C2143: syntax error: missing ')' before '(' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\cmTC_e1b76.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c(2,9): error C2091: function returns function [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\cmTC_e1b76.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c(2,9): error C2143: syntax error: missing ')' before 'string' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\cmTC_e1b76.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c(2,9): error C2143: syntax error: missing '{' before 'string' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\cmTC_e1b76.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c(2,9): error C2059: syntax error: 'string' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\cmTC_e1b76.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c(2,9): error C2059: syntax error: ')' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\cmTC_e1b76.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ATTRIBUTE_VISIBILITY_HIDDEN /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e1b76.dir\Debug\\" /Fd"cmTC_e1b76.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-23r3gi\src.c"
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("hidden")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_VISIBILITY_INTERNAL failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-q2qqlc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f581.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c(2,9): error C2143: syntax error: missing ')' before '(' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\cmTC_5f581.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c(2,9): error C2091: function returns function [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\cmTC_5f581.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c(2,9): error C2143: syntax error: missing ')' before 'string' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\cmTC_5f581.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c(2,9): error C2143: syntax error: missing '{' before 'string' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\cmTC_5f581.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c(2,9): error C2059: syntax error: 'string' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\cmTC_5f581.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c(2,9): error C2059: syntax error: ')' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\cmTC_5f581.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_ATTRIBUTE_VISIBILITY_INTERNAL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f581.dir\Debug\\" /Fd"cmTC_5f581.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q2qqlc\src.c"
+
+
+Source file was:
+#define Z_INTERNAL __attribute__((visibility ("internal")))
+    int Z_INTERNAL foo;
+    int main() {
+        return 0;
+    }
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZ failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-d0k0ow
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_28631.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-d0k0ow\src.c(3,34): warning C4013: '__builtin_ctz' undefined; assuming extern returning int [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-d0k0ow\cmTC_28631.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_CTZ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28631.dir\Debug\\" /Fd"cmTC_28631.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-d0k0ow\src.c"
+src.obj : error LNK2019: unresolved external symbol __builtin_ctz referenced in function main [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-d0k0ow\cmTC_28631.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-d0k0ow\Debug\cmTC_28631.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-d0k0ow\cmTC_28631.vcxproj]
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctz(zero);
+        (void)test;
+        return 0;
+    }
+
+Performing C SOURCE FILE Test HAVE_BUILTIN_CTZLL failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-9igbe7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_52258.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9igbe7\src.c(3,36): warning C4013: '__builtin_ctzll' undefined; assuming extern returning int [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9igbe7\cmTC_52258.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D HAVE_BUILTIN_CTZLL /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_52258.dir\Debug\\" /Fd"cmTC_52258.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9igbe7\src.c"
+src.obj : error LNK2019: unresolved external symbol __builtin_ctzll referenced in function main [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9igbe7\cmTC_52258.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9igbe7\Debug\cmTC_52258.exe : fatal error LNK1120: 1 unresolved externals [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9igbe7\cmTC_52258.vcxproj]
+
+
+Source file was:
+int main(void) {
+        unsigned int zero = 0;
+        long test = __builtin_ctzll(zero);
+        (void)test;
+        return 0;
+    }
+
+Performing C SOURCE FILE Test HAVE_SSE42CRC_INLINE_ASM failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0hgie4
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_c6e4b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,15): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,25): error C2065: 'mov': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,25): error C2146: syntax error: missing ';' before identifier 'edx' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,28): error C2065: 'edx': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,32): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,38): error C2146: syntax error: missing ';' before identifier 'mov' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,42): error C2065: 'mov': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,42): error C2146: syntax error: missing ';' before identifier 'eax' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,45): error C2065: 'eax': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,51): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,57): error C2146: syntax error: missing ';' before identifier 'crc32' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,63): error C2065: 'crc32': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,63): error C2146: syntax error: missing ';' before identifier 'eax' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,66): error C2065: 'eax': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,72): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,78): error C2065: 'edx': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,78): error C2146: syntax error: missing ';' before identifier 'mov' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,82): error C2065: 'mov': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,82): error C2146: syntax error: missing ';' before identifier 'val' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,91): error C2065: 'eax': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c(4,91): error C2143: syntax error: missing ';' before '}' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\cmTC_c6e4b.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D ZLIB_DEBUG /D HAVE_SSE42CRC_INLINE_ASM /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c6e4b.dir\Debug\\" /Fd"cmTC_c6e4b.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0hgie4\src.c"
+
+
+Source file was:
+int main(void) {
+            unsigned val = 0, h = 0;
+        #if defined(_MSC_VER)
+            { __asm mov edx, h __asm mov eax, val __asm crc32 eax, edx __asm mov val, eax }
+        #else
+            __asm__ __volatile__ ( "crc32 %1,%0" : "+r" (h) : "r" (val) );
+        #endif
+            return (int)h;
+        }
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-sjlaoo
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5c35b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5c35b.dir\Debug\\" /Fd"cmTC_5c35b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-sjlaoo\src.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-sjlaoo\src.c(1,10): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-sjlaoo\cmTC_5c35b.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-eu7w0u
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e16ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e16ef.dir\Debug\\" /Fd"cmTC_e16ef.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eu7w0u\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eu7w0u\cmTC_e16ef.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-zdcfi0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3a3b5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3a3b5.dir\Debug\\" /Fd"cmTC_3a3b5.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-zdcfi0\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-zdcfi0\cmTC_3a3b5.vcxproj]
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/filio.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-8p8kmo
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_980c9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_SYS_FILIO_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_980c9.dir\Debug\\" /Fd"cmTC_980c9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8p8kmo\HAVE_SYS_FILIO_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8p8kmo\HAVE_SYS_FILIO_H.c(7,10): fatal error C1083: Cannot open include file: 'sys/filio.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8p8kmo\cmTC_980c9.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/ioctl.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-sf4msw
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e77ef.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_SYS_IOCTL_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e77ef.dir\Debug\\" /Fd"cmTC_e77ef.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-sf4msw\HAVE_SYS_IOCTL_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-sf4msw\HAVE_SYS_IOCTL_H.c(7,10): fatal error C1083: Cannot open include file: 'sys/ioctl.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-sf4msw\cmTC_e77ef.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/ioctl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/resource.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-hvuhar
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_879e1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_SYS_RESOURCE_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_879e1.dir\Debug\\" /Fd"cmTC_879e1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-hvuhar\HAVE_SYS_RESOURCE_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-hvuhar\HAVE_SYS_RESOURCE_H.c(7,10): fatal error C1083: Cannot open include file: 'sys/resource.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-hvuhar\cmTC_879e1.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/resource.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/uio.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-t0orwa
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_add56.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SYS_UIO_H.c
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_add56.dir\Debug\\" /Fd"cmTC_add56.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-t0orwa\HAVE_SYS_UIO_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-t0orwa\HAVE_SYS_UIO_H.c(9,10): fatal error C1083: Cannot open include file: 'sys/uio.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-t0orwa\cmTC_add56.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/uio.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/un.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-6pwgk7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_02d01.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_SYS_UN_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_02d01.dir\Debug\\" /Fd"cmTC_02d01.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-6pwgk7\HAVE_SYS_UN_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-6pwgk7\HAVE_SYS_UN_H.c(9,10): fatal error C1083: Cannot open include file: 'sys/un.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-6pwgk7\cmTC_02d01.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/un.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;sys/xattr.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-e5x2tu
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_3124e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_SYS_XATTR_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3124e.dir\Debug\\" /Fd"cmTC_3124e.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-e5x2tu\HAVE_SYS_XATTR_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-e5x2tu\HAVE_SYS_XATTR_H.c(10,10): fatal error C1083: Cannot open include file: 'sys/xattr.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-e5x2tu\cmTC_3124e.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <sys/xattr.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;arpa/tftp.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-q5f6hv
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_5f0ec.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_ARPA_TFTP_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5f0ec.dir\Debug\\" /Fd"cmTC_5f0ec.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q5f6hv\HAVE_ARPA_TFTP_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q5f6hv\HAVE_ARPA_TFTP_H.c(10,10): fatal error C1083: Cannot open include file: 'arpa/tftp.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-q5f6hv\cmTC_5f0ec.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <arpa/tftp.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;idn2.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-ul43u0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_82b6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_IDN2_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82b6d.dir\Debug\\" /Fd"cmTC_82b6d.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ul43u0\HAVE_IDN2_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ul43u0\HAVE_IDN2_H.c(13,10): fatal error C1083: Cannot open include file: 'idn2.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-ul43u0\cmTC_82b6d.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <idn2.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;ifaddrs.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-pfrlvk
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dd172.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_IFADDRS_H.c
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dd172.dir\Debug\\" /Fd"cmTC_dd172.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-pfrlvk\HAVE_IFADDRS_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-pfrlvk\HAVE_IFADDRS_H.c(13,10): fatal error C1083: Cannot open include file: 'ifaddrs.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-pfrlvk\cmTC_dd172.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;krb.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-4u1u37
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6d3f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_KRB_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6d3f9.dir\Debug\\" /Fd"cmTC_6d3f9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4u1u37\HAVE_KRB_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4u1u37\HAVE_KRB_H.c(14,10): fatal error C1083: Cannot open include file: 'krb.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-4u1u37\cmTC_6d3f9.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <krb.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;libgen.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-j1gm87
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb36a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_LIBGEN_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_bb36a.dir\Debug\\" /Fd"cmTC_bb36a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j1gm87\HAVE_LIBGEN_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j1gm87\HAVE_LIBGEN_H.c(14,10): fatal error C1083: Cannot open include file: 'libgen.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-j1gm87\cmTC_bb36a.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <libgen.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;netinet/tcp.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-yltez9
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ea69b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_NETINET_TCP_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ea69b.dir\Debug\\" /Fd"cmTC_ea69b.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-yltez9\HAVE_NETINET_TCP_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-yltez9\HAVE_NETINET_TCP_H.c(15,10): fatal error C1083: Cannot open include file: 'netinet/tcp.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-yltez9\cmTC_ea69b.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <netinet/tcp.h>
+
+
+int main(void){return 0;}
+
+Determining if the include file linux/tcp.h exists failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-lqzy5d
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_42229.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckIncludeFile.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-lqzy5d\CheckIncludeFile.c(1,10): fatal error C1083: Cannot open include file: 'linux/tcp.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-lqzy5d\cmTC_42229.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_42229.dir\Debug\\" /Fd"cmTC_42229.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-lqzy5d\CheckIncludeFile.c"
+
+
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;pem.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-y65h9b
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8b07c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_PEM_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8b07c.dir\Debug\\" /Fd"cmTC_8b07c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-y65h9b\HAVE_PEM_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-y65h9b\HAVE_PEM_H.c(15,10): fatal error C1083: Cannot open include file: 'pem.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-y65h9b\cmTC_8b07c.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <pem.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;poll.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-94bqe7
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_202cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_POLL_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_202cf.dir\Debug\\" /Fd"cmTC_202cf.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-94bqe7\HAVE_POLL_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-94bqe7\HAVE_POLL_H.c(15,10): fatal error C1083: Cannot open include file: 'poll.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-94bqe7\cmTC_202cf.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <poll.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;ssl.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-9p9fpm
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_7238f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  HAVE_SSL_H.c
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7238f.dir\Debug\\" /Fd"cmTC_7238f.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9p9fpm\HAVE_SSL_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9p9fpm\HAVE_SSL_H.c(17,10): fatal error C1083: Cannot open include file: 'ssl.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-9p9fpm\cmTC_7238f.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <ssl.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;stropts.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-6bq6y5
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_dbee1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_STROPTS_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dbee1.dir\Debug\\" /Fd"cmTC_dbee1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-6bq6y5\HAVE_STROPTS_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-6bq6y5\HAVE_STROPTS_H.c(21,10): fatal error C1083: Cannot open include file: 'stropts.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-6bq6y5\cmTC_dbee1.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining if files windows.h;ws2tcpip.h;winsock2.h;wincrypt.h;stdio.h;sys/stat.h;sys/types.h;sys/utime.h;assert.h;errno.h;fcntl.h;io.h;locale.h;setjmp.h;signal.h;stdbool.h;stdio.h;stdlib.h;string.h;time.h;process.h;stddef.h;malloc.h;memory.h;sys/utsname.h exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-erkjbt
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a2705.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  HAVE_SYS_UTSNAME_H.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2705.dir\Debug\\" /Fd"cmTC_a2705.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-erkjbt\HAVE_SYS_UTSNAME_H.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-erkjbt\HAVE_SYS_UTSNAME_H.c(26,10): fatal error C1083: Cannot open include file: 'sys/utsname.h': No such file or directory [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-erkjbt\cmTC_a2705.vcxproj]
+
+
+Source:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+#include <sys/utsname.h>
+
+
+int main(void){return 0;}
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-l2wwmf
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_75c39.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  SIZEOF_SSIZE_T.c
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\SIZEOF_SSIZE_T.c(28,12): error C2065: 'ssize_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\cmTC_75c39.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\SIZEOF_SSIZE_T.c(29,12): error C2065: 'ssize_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\cmTC_75c39.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\SIZEOF_SSIZE_T.c(30,12): error C2065: 'ssize_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\cmTC_75c39.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\SIZEOF_SSIZE_T.c(31,12): error C2065: 'ssize_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\cmTC_75c39.vcxproj]
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\SIZEOF_SSIZE_T.c(32,12): error C2065: 'ssize_t': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\cmTC_75c39.vcxproj]
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75c39.dir\Debug\\" /Fd"cmTC_75c39.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-l2wwmf\SIZEOF_SSIZE_T.c"
+
+
+SIZEOF_SSIZE_T.c:
+#include <sys/types.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the basename exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-06yzj1
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_79d6a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_79d6a.dir\Debug\\" /Fd"cmTC_79d6a.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-06yzj1\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-06yzj1\CheckSymbolExists.c(31,27): error C2065: 'basename': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-06yzj1\cmTC_79d6a.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef basename
+  return ((int*)(&basename))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncmpi exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-tqqxun
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_6ec53.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ec53.dir\Debug\\" /Fd"cmTC_6ec53.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-tqqxun\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-tqqxun\CheckSymbolExists.c(31,27): error C2065: 'strncmpi': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-tqqxun\cmTC_6ec53.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncmpi
+  return ((int*)(&strncmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the alarm exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0khhg6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_4200c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_4200c.dir\Debug\\" /Fd"cmTC_4200c.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0khhg6\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0khhg6\CheckSymbolExists.c(31,24): error C2065: 'alarm': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0khhg6\cmTC_4200c.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef alarm
+  return ((int*)(&alarm))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getppid exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-fgudox
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_ae8f9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae8f9.dir\Debug\\" /Fd"cmTC_ae8f9.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-fgudox\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-fgudox\CheckSymbolExists.c(31,26): error C2065: 'getppid': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-fgudox\cmTC_ae8f9.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getppid
+  return ((int*)(&getppid))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the utimes exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-be3mh6
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_47855.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47855.dir\Debug\\" /Fd"cmTC_47855.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-be3mh6\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-be3mh6\CheckSymbolExists.c(31,25): error C2065: 'utimes': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-be3mh6\cmTC_47855.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef utimes
+  return ((int*)(&utimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpwuid_r exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-8rny1y
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_e7e36.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7e36.dir\Debug\\" /Fd"cmTC_e7e36.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8rny1y\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8rny1y\CheckSymbolExists.c(31,29): error C2065: 'getpwuid_r': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-8rny1y\cmTC_e7e36.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpwuid_r
+  return ((int*)(&getpwuid_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the usleep exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0ycldh
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a0ad1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  CheckSymbolExists.c
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0ad1.dir\Debug\\" /Fd"cmTC_a0ad1.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0ycldh\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0ycldh\CheckSymbolExists.c(31,25): error C2065: 'usleep': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0ycldh\cmTC_a0ad1.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef usleep
+  return ((int*)(&usleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-eynhc0
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_91149.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_91149.dir\Debug\\" /Fd"cmTC_91149.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eynhc0\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eynhc0\CheckSymbolExists.c(31,29): error C2065: 'strerror_r': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-eynhc0\cmTC_91149.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the siginterrupt exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-0n70pr
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_61023.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_61023.dir\Debug\\" /Fd"cmTC_61023.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0n70pr\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0n70pr\CheckSymbolExists.c(31,31): error C2065: 'siginterrupt': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-0n70pr\cmTC_61023.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef siginterrupt
+  return ((int*)(&siginterrupt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pipe exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-7uendc
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f5073.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f5073.dir\Debug\\" /Fd"cmTC_f5073.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7uendc\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7uendc\CheckSymbolExists.c(31,23): error C2065: 'pipe': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-7uendc\cmTC_f5073.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pipe
+  return ((int*)(&pipe))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the ftruncate exist failed with the following output:
+Change Dir: C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/CMakeFiles/CMakeScratch/TryCompile-2rh199
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_71bb0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && Microsoft (R) Build Engine version 17.0.0+c9eb9dd64 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.30.30706 for x64
+  CheckSymbolExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\vcpkg\installed\x64-windows\include" /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D _WINSOCKAPI_= /D SECURITY_WIN32 /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_71bb0.dir\Debug\\" /Fd"cmTC_71bb0.dir\Debug\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue "C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-2rh199\CheckSymbolExists.c"
+C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-2rh199\CheckSymbolExists.c(31,28): error C2065: 'ftruncate': undeclared identifier [C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\CMakeFiles\CMakeScratch\TryCompile-2rh199\cmTC_71bb0.vcxproj]
+
+
+File CheckSymbolExists.c:
+/* */
+#include <windows.h>
+#include <ws2tcpip.h>
+#include <winsock2.h>
+#include <wincrypt.h>
+#include <stdio.h>
+#include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/utime.h>
+#include <assert.h>
+#include <errno.h>
+#include <fcntl.h>
+#include <io.h>
+#include <locale.h>
+#include <setjmp.h>
+#include <signal.h>
+#include <stdbool.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <time.h>
+#include <process.h>
+#include <stddef.h>
+#include <malloc.h>
+#include <memory.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef ftruncate
+  return ((int*)(&ftruncate))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}

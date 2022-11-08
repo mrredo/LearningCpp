@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/curl-populate"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/befadfbd0f680c632f26234f54562b34/curl-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/4a9489b6ee90b451bddf39c4aa47ebd5/curl-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/937f2f4277721380d1423290e3c62996/curl-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"curl-populate"
+		],
+		"name" : "curl-populate"
+	}
+}

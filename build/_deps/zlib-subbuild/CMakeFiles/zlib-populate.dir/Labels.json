@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/zlib-populate"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/6c7eb3622eb5cb21f9f6f08e0875d96a/zlib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/d59220da4d1db5eef16db91b5376f726/zlib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Lietot\u0101js/Documents/GitHub/learningcpp/build/_deps/zlib-subbuild/CMakeFiles/884b741bbf4e678da582bbba884db125/zlib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"zlib-populate"
+		],
+		"name" : "zlib-populate"
+	}
+}

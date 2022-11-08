@@ -1,0 +1,3 @@
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/curl-populate.dir
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/Lietotājs/Documents/GitHub/learningcpp/build/_deps/curl-subbuild/CMakeFiles/ZERO_CHECK.dir

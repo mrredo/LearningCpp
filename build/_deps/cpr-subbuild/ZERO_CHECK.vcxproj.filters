@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lietotājs\Documents\GitHub\learningcpp\build\_deps\cpr-subbuild\CMakeFiles\c28446bbb10ae560d634203b734bd986\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A00F6709-CA67-3B6B-B1E5-42E56F39BD96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
