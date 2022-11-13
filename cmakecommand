@@ -1,3 +1,0 @@
-cd build
-cmake ..
-and it will install packages
