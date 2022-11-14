@@ -4,7 +4,10 @@
 #include <string> 
 #include <ctime>
 using namespace std;
-
+struct XY {
+  int X;
+  int Y;
+};
 class Snake {
     private:
 
@@ -15,11 +18,12 @@ class Snake {
     int  RandU(int nMax);
     string GridToString();
     void setGrid();
-
+    void inputMovement();
 
     Snake();
     
 
     // map<string, string[]> snakePosition;
+    map<string, XY> sPos;
     string grid[5][5];
 };
