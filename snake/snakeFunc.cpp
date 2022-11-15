@@ -2,7 +2,7 @@
 void Snake::move(string rldf) {
     
     if (rldf == "u") {
-        XY xy = this->sPos["head"];
+        XY xy = this->sPos["1"];
         string msg = "";
         if (xy.Y == 0) {
             msg = "cant move up";
@@ -13,7 +13,7 @@ void Snake::move(string rldf) {
         this->inputMovement(msg);
     } else if(rldf == "d") {
         string msg = "";
-        XY xy = this->sPos["head"];
+        XY xy = this->sPos["1"];
         
         if (xy.Y == 4) {
             msg = "cant move down";
@@ -24,7 +24,7 @@ void Snake::move(string rldf) {
         this->inputMovement(msg);
     } else if(rldf == "r") {
         string msg = "";
-        XY xy = this->sPos["head"];
+        XY xy = this->sPos["1"];
         
         if (xy.X == 4) {
             msg = "cant move right";
@@ -35,7 +35,7 @@ void Snake::move(string rldf) {
         this->inputMovement(msg);
     } else if(rldf == "l") {
                 string msg = "";
-        XY xy = this->sPos["head"];
+        XY xy = this->sPos["1"];
         
         if (xy.X == 0) {
             msg = "cant move left";
@@ -96,8 +96,9 @@ Snake::Snake() {
     if(DIY == 1) DIY +=1;
     if(DIY <4) DIY +=2;
     if(DIY >4) DIY -=2;
+    this->snakeLength += 1;
     this->grid[DIY][DX] = "M";
-    this->sPos["head"] = this->newPos(DX, DIY);
+    this->sPos["1"] = this->newPos(DX, DIY);
     this->inputMovement("");
         
 };
@@ -116,8 +117,27 @@ string Snake::GridToString() {
 
 void Snake::SetSnakePos(int x, int y) {
     XY xy = newPos(x, y);
-    XY head = this->sPos["head"];
+    XY head = this->sPos["1"];
     this->grid[head.Y][head.X] = "O";
     this->grid[xy.Y][xy.X] = "M";
-    this->sPos["head"] = xy;
+    this->sPos["1"] = xy;
+}
+
+void Snake::CreateApple() {
+    bool success = false;
+    while(!success) {
+        int xp = this->RandU(4);
+        int yp = this->RandU(4);
+        if(yp == 4) yp -=1;
+        if(yp == 1) yp +=1;
+        if(yp <4) yp +=2;
+        if(yp >4) yp -=2;
+        if(this->grid[yp][xp] != "M" || this->grid[yp][xp] != "C") success = true;this->grid[yp][xp] = "H";
+    }
+    // this->grid[]
+}
+
+
+bool Snake::Dead(XY xy) {
+    
 }
