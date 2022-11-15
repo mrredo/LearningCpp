@@ -18,7 +18,8 @@ class Snake {
     int  RandU(int nMax);
     string GridToString();
     void setGrid();
-    void inputMovement();
+    void inputMovement(string msg);
+    XY newPos(int x, int y);
 
     Snake();
     

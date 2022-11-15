@@ -1,21 +1,77 @@
 #include "snake.h"
 void Snake::move(string rldf) {
+    
     if (rldf == "u") {
         XY xy = this->sPos["head"];
+        string msg = "";
+        if (xy.Y == 0) {
+            msg = "cant move up";
+            this->inputMovement(msg);
+            return;
+        }
+         this->sPos["head"] = this->newPos(xy.X, xy.Y - 1);
         this->grid[xy.Y][xy.X] = "O";
-        if (xy.Y == 5) {
-            cout << "cant move up" << endl;
+        this->grid[xy.Y - 1][xy.X] = "M";
+        cout <<this->sPos["head"].Y<< " : " << this->sPos["head"].X;
+        this->inputMovement(msg);
+    } else if(rldf == "d") {
+        string msg = "";
+        XY xy = this->sPos["head"];
+        
+        if (xy.Y == 4) {
+            msg = "cant move down";
+            this->inputMovement(msg);
             return;
         } 
-        this->grid[xy.Y + 1][xy.X] = "M";
-    } else if(rldf == "d") {
-
+        this->sPos["head"] = this->newPos(xy.X, xy.Y + 1);
+        this->grid[xy.Y][xy.X] = "O";
+        this->grid[xy.Y + 1][xy.X] = "M";  
+        this->inputMovement(msg);
     } else if(rldf == "r") {
+        string msg = "";
+        XY xy = this->sPos["head"];
         
+        if (xy.X == 4) {
+            msg = "cant move right";
+            this->inputMovement(msg);
+            return;
+        } 
+        this->sPos["head"] = this->newPos(xy.X + 1, xy.Y);
+        this->grid[xy.Y][xy.X] = "O";
+        this->grid[xy.Y][xy.X + 1] = "M";  
+        this->inputMovement(msg);
     } else if(rldf == "l") {
+                string msg = "";
+        XY xy = this->sPos["head"];
         
+        if (xy.X == 0) {
+            msg = "cant move left";
+            this->inputMovement(msg);
+            return;
+        } 
+        this->sPos["head"] = this->newPos(xy.X - 1, xy.Y);
+        this->grid[xy.Y][xy.X] = "O";
+        this->grid[xy.Y][xy.X - 1] = "M";  
+        this->inputMovement(msg);
+    } else {
+        cout << "Invalid Move!";
+        this->inputMovement("Invalid Move!");
     }
 }
+
+
+void Snake::inputMovement(string msg) {
+    cout << "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n";
+    cout << this->GridToString() << endl;
+    string move;
+    if(msg != "") cout << msg << endl;
+    cout << "Movements: 'u'(up); 'd'(down); 'r'(right); 'l'(left)" << endl;
+    cout << "Movement command: ";
+    cin >> move;
+    this->move(move);
+}
+
+
 
 int Snake::RandU(int nMax)
 {
@@ -24,7 +80,7 @@ int Snake::RandU(int nMax)
 
     return random % nMax;
 }
-XY newPos(int x, int y) {
+XY Snake::newPos(int x, int y) {
     XY pos;
     pos.X = x;
     pos.Y = y;
@@ -43,18 +99,16 @@ Snake::Snake() {
         }
         //std::cout << std::endl;
     }
-    int sIX = this->RandU(5);
-    int DIY = this->RandU(5);
-    if(DIY == 5) DIY -=1;
+    int DX = this->RandU(4);
+    int DIY = this->RandU(4);
+    if(DIY == 4) DIY -=1;
     if(DIY == 1) DIY +=1;
     if(DIY <4) DIY +=2;
     if(DIY >4) DIY -=2;
-    this->grid[DIY][sIX] = "M";
-    this->sPos["head"] = newPos(sIX, DIY);
-    
-    // cout << this->grid[1][2] << endl;
-    // char* sn[5] = {"◻️", "◻️", "◻️", "◻️", "◻️"};
-    // this->grid.insert(pair<string, char*>("1", sn));
+    this->grid[DIY][DX] = "M";
+    this->sPos["head"] = this->newPos(DX, DIY);
+    this->inputMovement("");
+        
 };
 
 string Snake::GridToString() {
@@ -66,7 +120,5 @@ string Snake::GridToString() {
         grid += "\n";
 
     }
-
-    
     return grid;
 }
