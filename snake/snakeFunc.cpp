@@ -9,10 +9,7 @@ void Snake::move(string rldf) {
             this->inputMovement(msg);
             return;
         }
-         this->sPos["head"] = this->newPos(xy.X, xy.Y - 1);
-        this->grid[xy.Y][xy.X] = "O";
-        this->grid[xy.Y - 1][xy.X] = "M";
-        cout <<this->sPos["head"].Y<< " : " << this->sPos["head"].X;
+        this->SetSnakePos(xy.X, xy.Y - 1);
         this->inputMovement(msg);
     } else if(rldf == "d") {
         string msg = "";
@@ -23,9 +20,7 @@ void Snake::move(string rldf) {
             this->inputMovement(msg);
             return;
         } 
-        this->sPos["head"] = this->newPos(xy.X, xy.Y + 1);
-        this->grid[xy.Y][xy.X] = "O";
-        this->grid[xy.Y + 1][xy.X] = "M";  
+        this->SetSnakePos(xy.X, xy.Y + 1);
         this->inputMovement(msg);
     } else if(rldf == "r") {
         string msg = "";
@@ -36,9 +31,7 @@ void Snake::move(string rldf) {
             this->inputMovement(msg);
             return;
         } 
-        this->sPos["head"] = this->newPos(xy.X + 1, xy.Y);
-        this->grid[xy.Y][xy.X] = "O";
-        this->grid[xy.Y][xy.X + 1] = "M";  
+        this->SetSnakePos(xy.X + 1, xy.Y);
         this->inputMovement(msg);
     } else if(rldf == "l") {
                 string msg = "";
@@ -49,9 +42,7 @@ void Snake::move(string rldf) {
             this->inputMovement(msg);
             return;
         } 
-        this->sPos["head"] = this->newPos(xy.X - 1, xy.Y);
-        this->grid[xy.Y][xy.X] = "O";
-        this->grid[xy.Y][xy.X - 1] = "M";  
+        this->SetSnakePos(xy.X - 1, xy.Y);
         this->inputMovement(msg);
     } else {
         cout << "Invalid Move!";
@@ -121,4 +112,12 @@ string Snake::GridToString() {
 
     }
     return grid;
+}
+
+void Snake::SetSnakePos(int x, int y) {
+    XY xy = newPos(x, y);
+    XY head = this->sPos["head"];
+    this->grid[head.Y][head.X] = "O";
+    this->grid[xy.Y][xy.X] = "M";
+    this->sPos["head"] = xy;
 }

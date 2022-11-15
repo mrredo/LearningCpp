@@ -19,6 +19,7 @@ class Snake {
     string GridToString();
     void setGrid();
     void inputMovement(string msg);
+    void SetSnakePos(int x, int y);
     XY newPos(int x, int y);
 
     Snake();
