@@ -90,8 +90,8 @@ Snake::Snake() {
         }
         //std::cout << std::endl;
     }
-    int DX = this->RandU(4);
-    int DIY = this->RandU(4);
+    int DX = this->RandU(1)+this->RandU(3)+this->RandU(1);
+    int DIY = this->RandU(4)+this->RandU(1);
     if(DIY == 4) DIY -=1;
     if(DIY == 1) DIY +=1;
     if(DIY <4) DIY +=2;
@@ -99,6 +99,7 @@ Snake::Snake() {
     this->snakeLength += 1;
     this->grid[DIY][DX] = "M";
     this->sPos["1"] = this->newPos(DX, DIY);
+    this->CreateApple();
     this->inputMovement("");
         
 };
