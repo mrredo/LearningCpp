@@ -10,6 +10,7 @@ void Snake::move(string rldf) {
             return;
         }
         this->SetSnakePos(xy.X, xy.Y - 1);
+        // cout << this->sPos["1"].X << " , " << this->sPos["1"].Y << " : " << this->sPos["2"].X << " , " << this->sPos["2"].Y << endl;
         this->inputMovement(msg);
     } else if(rldf == "d") {
         string msg = "";
@@ -92,10 +93,10 @@ Snake::Snake() {
     }
     int DX = this->RandU(1)+this->RandU(3)+this->RandU(1);
     int DIY = this->RandU(4)+this->RandU(1);
-    if(DIY == 4) DIY -=1;
-    if(DIY == 1) DIY +=1;
-    if(DIY <4) DIY +=2;
-    if(DIY >4) DIY -=2;
+    // if(DIY == 4) DIY -=1;
+    // if(DIY == 1) DIY +=1;
+    // if(DIY <4) DIY +=2;
+    // if(DIY >4) DIY -=2;
     this->snakeLength += 1;
     this->grid[DIY][DX] = "M";
     this->sPos["1"] = this->newPos(DX, DIY);
@@ -120,6 +121,9 @@ void Snake::SetSnakePos(int x, int y) {
     XY xy = newPos(x, y);
     XY head = this->sPos["1"];
     this->grid[head.Y][head.X] = "O";
+    if(this->nextIsApple(xy)) {
+        this->addTail(head);
+    }
     this->grid[xy.Y][xy.X] = "M";
     this->sPos["1"] = xy;
 }
@@ -133,6 +137,7 @@ void Snake::CreateApple() {
         if(yp == 1) yp +=1;
         if(yp <4) yp +=2;
         if(yp >4) yp -=2;
+        
         if(this->grid[yp][xp] != "M" || this->grid[yp][xp] != "C") success = true;this->grid[yp][xp] = "H";
     }
     // this->grid[]
@@ -141,4 +146,17 @@ void Snake::CreateApple() {
 
 bool Snake::Dead(XY xy) {
     
+}
+
+void Snake::addTail(XY newPos) {
+    // if(this->nextIsApple(newPos)) {
+        this->sPos[to_string(this->snakeLength + 1)] = newPos;
+        cout << to_string(this->snakeLength + 1) << endl;
+        this->grid[newPos.Y][newPos.X] = "V";
+    // }
+}
+bool Snake::nextIsApple(XY newPos) {
+    cout << this->grid[newPos.Y][newPos.X] << endl;
+    if(this->grid[newPos.Y][newPos.X] == "H") return true;
+    return false;
 }

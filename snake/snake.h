@@ -19,6 +19,8 @@ class Snake {
     void CreateApple();
     bool Dead(XY xy);
     XY newPos(int x, int y);
+    void addTail(XY newPos);
+    bool nextIsApple(XY newPos);
 
     Snake();
     int Score;
