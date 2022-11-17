@@ -125,6 +125,12 @@ void Snake::SetSnakePos(int x, int y) {
         this->addTail(head);
     }
     this->grid[xy.Y][xy.X] = "M";
+    if(this->snakeLength != 1) {
+        // XY tailLast = this->sPos[to_string(this->snakeLength)];
+        // XY tailFirst = this->sPos["2"];
+        // this->sPos["2"] = tailLast;
+    }
+    
     this->sPos["1"] = xy;
 }
 
