@@ -97,7 +97,7 @@ Snake::Snake() {
     // if(DIY == 1) DIY +=1;
     // if(DIY <4) DIY +=2;
     // if(DIY >4) DIY -=2;
-    this->snakeLength += 1;
+    this->snakeLength = 1;
     this->grid[DIY][DX] = "M";
     this->sPos["1"] = this->newPos(DX, DIY);
     this->CreateApple();
@@ -120,18 +120,31 @@ string Snake::GridToString() {
 void Snake::SetSnakePos(int x, int y) {
     XY xy = newPos(x, y);
     XY head = this->sPos["1"];
-    this->grid[head.Y][head.X] = "O";
-    if(this->nextIsApple(xy)) {
-        this->addTail(head);
+    grid[head.Y][head.X] = "O";
+    if(nextIsApple(xy)) {
+        cout << "Snake tail\n";
+        addTail(head);
     }
-    this->grid[xy.Y][xy.X] = "M";
-    if(this->snakeLength != 1) {
+    grid[xy.Y][xy.X] = "M";
+    cout << snakeLength << "\n";
+    if(snakeLength != 1) {
+
+        for(int i = 2; i < snakeLength; i++) {
+            // XY ele = this->sPos[to_string(i)];
+
+            if(i == snakeLength) {
+                XY ele = sPos[to_string(i)];
+                grid[ele.Y][ele.X] = "O";
+            }
+            XY aboveEl = sPos[to_string(i - 1)];
+            grid[aboveEl.Y][aboveEl.X] = "V";
+        }
         // XY tailLast = this->sPos[to_string(this->snakeLength)];
         // XY tailFirst = this->sPos["2"];
         // this->sPos["2"] = tailLast;
     }
     
-    this->sPos["1"] = xy;
+    sPos["1"] = xy;
 }
 
 void Snake::CreateApple() {
@@ -151,18 +164,19 @@ void Snake::CreateApple() {
 
 
 bool Snake::Dead(XY xy) {
-    
+    return false;
 }
 
 void Snake::addTail(XY newPos) {
     // if(this->nextIsApple(newPos)) {
         this->sPos[to_string(this->snakeLength + 1)] = newPos;
-        cout << to_string(this->snakeLength + 1) << endl;
+        // cout << to_string(this->snakeLength + 1) << endl;
+        snakeLength =+ 1;
         this->grid[newPos.Y][newPos.X] = "V";
     // }
 }
 bool Snake::nextIsApple(XY newPos) {
-    cout << this->grid[newPos.Y][newPos.X] << endl;
+    cout << this->grid[newPos.Y][newPos.X] << "\n";
     if(this->grid[newPos.Y][newPos.X] == "H") return true;
     return false;
 }
