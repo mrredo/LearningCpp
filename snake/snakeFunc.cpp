@@ -59,7 +59,9 @@ void Snake::inputMovement(string msg) {
     if(msg != "") cout << msg << endl;
     cout << "Movements: 'u'(up); 'd'(down); 'r'(right); 'l'(left)" << endl;
     cout << "Movement command: ";
+    
     cin >> move;
+    cout << to_string(snakeLength) << "\n";
     this->move(move);
 }
 
@@ -126,25 +128,32 @@ void Snake::SetSnakePos(int x, int y) {
         addTail(head);
     }
     grid[xy.Y][xy.X] = "M";
-    cout << snakeLength << "\n";
-    if(snakeLength != 1) {
+    
+    
+    // cout << snakeLength << "\n";
+    if(snakeLength > 1) {
 
-        for(int i = 2; i < snakeLength; i++) {
-            // XY ele = this->sPos[to_string(i)];
-
-            if(i == snakeLength) {
+        for(int i = 2; i < snakeLength + 2; i++) {
+            if(snakeLength != 2) {
                 XY ele = sPos[to_string(i)];
-                grid[ele.Y][ele.X] = "O";
+                XY preEle = sPos[to_string(i - 1)];
+                grid[preEle.Y][preEle.X] = "V";
+            } else {
+                grid[head.Y][head.X] = "V";
             }
-            XY aboveEl = sPos[to_string(i - 1)];
-            grid[aboveEl.Y][aboveEl.X] = "V";
+            if(i == snakeLength) {
+                XY eleSS = sPos[to_string(i)];
+                grid[eleSS.Y][eleSS.X] = "O";
+            }
+            // XY aboveEl = sPos[to_string(i - 1)];
+            // grid[aboveEl.Y][aboveEl.X] = "V";
         }
         // XY tailLast = this->sPos[to_string(this->snakeLength)];
         // XY tailFirst = this->sPos["2"];
         // this->sPos["2"] = tailLast;
     }
-    
     sPos["1"] = xy;
+    
 }
 
 void Snake::CreateApple() {
@@ -157,7 +166,7 @@ void Snake::CreateApple() {
         if(yp <4) yp +=2;
         if(yp >4) yp -=2;
         
-        if(this->grid[yp][xp] != "M" || this->grid[yp][xp] != "C") success = true;this->grid[yp][xp] = "H";
+        if(this->grid[yp][xp] != "M" || this->grid[yp][xp] != "C") success = true; grid[yp][xp] = "H";
     }
     // this->grid[]
 }
@@ -171,7 +180,7 @@ void Snake::addTail(XY newPos) {
     // if(this->nextIsApple(newPos)) {
         this->sPos[to_string(this->snakeLength + 1)] = newPos;
         // cout << to_string(this->snakeLength + 1) << endl;
-        snakeLength =+ 1;
+        snakeLength += 1;
         this->grid[newPos.Y][newPos.X] = "V";
     // }
 }
