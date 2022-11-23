@@ -134,20 +134,25 @@ void Snake::SetSnakePos(int x, int y) {
     if(snakeLength > 1) {
 
         for(int i = 2; i < snakeLength + 2; i++) {
-            if(snakeLength != 2) {
-                XY ele = sPos[to_string(i)];
+            // if(snakeLength != 2) {
+                // XY ele = sPos[to_string(i)];
                 XY preEle = sPos[to_string(i - 1)];
                 grid[preEle.Y][preEle.X] = "V";
-            } else {
-                grid[head.Y][head.X] = "V";
-            }
-            if(i == snakeLength) {
-                XY eleSS = sPos[to_string(i)];
-                grid[eleSS.Y][eleSS.X] = "O";
-            }
-            // XY aboveEl = sPos[to_string(i - 1)];
+                sPos[to_string(i)] = preEle;
+            // } 
+            // else {
+            //     grid[head.Y][head.X] = "V";
+            //     sPos["2"] = head;
+            // }
+
+                        // XY aboveEl = sPos[tostring(i - 1)];
             // grid[aboveEl.Y][aboveEl.X] = "V";
         }
+        
+        XY eleSS = sPos[to_string(snakeLength)];
+        grid[eleSS.Y][eleSS.X] = "O";
+        XY el = sPos["2"];
+        cout << el.Y << " : " << el.X << " : " <<  grid[el.Y][el.X] << endl;
         // XY tailLast = this->sPos[to_string(this->snakeLength)];
         // XY tailFirst = this->sPos["2"];
         // this->sPos["2"] = tailLast;
