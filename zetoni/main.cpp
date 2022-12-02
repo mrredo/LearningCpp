@@ -1,36 +1,43 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 int main() {
-    int N = 50;
-    int m1 = 2;
-    int m2 = 3;
+    int N = 450;
+    int m1 = 21;
+    int m2 = 30;
     int G = 2;
-    int *zetoni = new int(N);
-    int *labieZetoni;
-    int dati[2][2] = {// 2 ir gājienu skaits
+    int *zetoni = new int(1);
+    vector<int> zeton;
+    vector<int> JNzeton;
+    int dati[2][2] = {
         {
-            23, 32
+            375, 500
         },
         {
-            10, 28
+            20, 345
         },
     }; 
-    for(int i = 1; i < N + 1; i++) { //padomāt cik ir i = 0 vai i = 1;
-        zetoni[i - 1] = i;
-    }
-    // for (int i = 1; i < N + 1; i++) {
-    //     if((zetoni[i - 1] % m1) == 0 || (zetoni[i - 1] % m2) == 0) labieZetoni[i - 1] = zetoni[i - 1];
-    //     
-    // }\
-    mainas
-    // zetoni = labieZetoni;
-    for(int i = 1; i < N + 1; i++) { //padomāt cik ir i = 0 vai i = 1;
-        cout << zetoni[i - 1] << endl;
-    }
-    for(int i = 0; i < G; i ++) {
+    for(int i = 1; i < N + 1; i++) { 
+        if((i % m1) == 0 || (i % m2) == 0) {
+            zeton.push_back(i);
+        }
 
     }
+
+    cout << "Sakums Zetonu skaits: " << zeton.size() << endl;
+
+    for(int j = 0; j < (sizeof(dati)/sizeof(dati[0])); j++) {
+        for(int i = 0; i < zeton.size(); i++) {
+            if((dati[j][0] <= (zeton[i]) && (zeton[i]) <= dati[j][1]) == false) {
+                JNzeton.push_back((zeton[i]));
+            }
+        }
+        cout << j + 1 << ". gajiena palikusi zetoni: " << JNzeton.size() << endl;
+        zeton = JNzeton;
+        JNzeton.clear();
+    }
+
+    cout << "Speles beigas palika zetoni: " << zeton.size();
 }
 
