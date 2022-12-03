@@ -10,13 +10,17 @@ int main() {
     int *zetoni = new int(1);
     vector<int> zeton;
     vector<int> JNzeton;
-    int dati[2][2] = {
-        {
-            375, 500
-        },
-        {
-            20, 345
-        },
+    int gajieni[2][2] = {
+        { 375, 500},
+        {20, 345},
+        // {111, 132},
+        // {33, 33},
+        // {122, 144},
+        // {276, 284},
+        // {6, 45},
+        // {128, 143},
+        // {60, 71},
+        // {250, 259},
     }; 
     for(int i = 1; i < N + 1; i++) { 
         if((i % m1) == 0 || (i % m2) == 0) {
@@ -27,9 +31,9 @@ int main() {
 
     cout << "Sakums Zetonu skaits: " << zeton.size() << endl;
 
-    for(int j = 0; j < (sizeof(dati)/sizeof(dati[0])); j++) {
+    for(int j = 0; j < (sizeof(gajieni)/sizeof(gajieni[0])); j++) {
         for(int i = 0; i < zeton.size(); i++) {
-            if((dati[j][0] <= (zeton[i]) && (zeton[i]) <= dati[j][1]) == false) {
+            if((gajieni[j][0] <= (zeton[i]) && (zeton[i]) <= gajieni[j][1]) == false) {
                 JNzeton.push_back((zeton[i]));
             }
         }
