@@ -49,17 +49,26 @@ auto TestData(vector<int> magn, int nulluSkaits) {
         if (isEven(i)) p += "0";
         else o += "0";
     }
+
     
 
    
 
     int len = magnBezNullem.size();
     for (int i = 0; i < len; i++) {
-        if (isEven(magnBezNullem.size())) {
+        if (isEven(magnBezNullem.size()) && !isEven(nulluSkaits)) {
+            p += to_string(magnBezNullem[0]);
+            magnBezNullem = findAndRemoveItem(magnBezNullem, magnBezNullem[0]);
+            p += to_string(magnBezNullem[1]);
+            magnBezNullem = findAndRemoveItem(magnBezNullem, magnBezNullem[1]);
+        } else if(!isEven(magnBezNullem.size()) && isEven(nulluSkaits)) {
+            p += to_string(magnBezNullem[0]);
+            magnBezNullem = findAndRemoveItem(magnBezNullem, magnBezNullem[0]);
+        } else if (isEven(magnBezNullem.size()) && isEven(nulluSkaits)) {
             o += to_string(magnBezNullem[0]);
             magnBezNullem = findAndRemoveItem(magnBezNullem, magnBezNullem[0]);
         }
-        else {
+        else if(!isEven(magnBezNullem.size()) && !isEven(nulluSkaits)) {
             p += to_string(magnBezNullem[0]);
             magnBezNullem = findAndRemoveItem(magnBezNullem, magnBezNullem[0]);
         }
@@ -68,23 +77,10 @@ auto TestData(vector<int> magn, int nulluSkaits) {
     cout << "\n1. skaitlis: " + p<< "\n 2.skaitlis: " + o << endl;
 }
 int main() {
-    vector<int> m = {1,2,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9 }; // 1. tests | magnēti
-    int nSK = 1; // 1. tests | nullu skaits
-    cout << "1. Tests: ";
-    TestData(m, nSK);
-    m = { 1,2,3,4,5,0,0,0 }; // 2. tests | magnēti
-    nSK = 3; // 2. tests | nullu skaits
-    cout << "2. Tests: ";
-    TestData(m, nSK);
+    vector<int> m = {0,0,0,0,0,0,5,6,8,7,8,1,3 }; // 1. tests | magnēti
+    int nSK = 6; // 1. tests | nullu skaits
+        TestData(m, nSK);
 
-    m = { 0,0,0,3,4,5,6,7,8,9,0,1,2,3,4,5,6,7,8,9,0,0,0,0,0,0,0,0,0,0 }; // 3. tests | magnēti
-    nSK = 14; // 3. tests | nullu skaits
-    cout << "3. Tests: ";
-    TestData(m, nSK);
-        m = { 0,0,0,1,12,2,3,4 }; // 3. tests | magnēti
-    nSK = 3; // 3. tests | nullu skaits
-    cout << "3. Tests: ";
-    TestData(m, nSK);
 
 
 }
